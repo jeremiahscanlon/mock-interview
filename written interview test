@@ -1,0 +1,40 @@
+1) SELECT * FROM users;
+
+2) SELECT * FROM users WHERE id = 2;
+
+3) id, meal, user_fk
+
+4) 
+CREATE TABLE meals (
+	'id' int AUTO-INCREMENT,
+	'meal' varchar(64),
+	'user_fk' int
+)
+
+5)
+INSERT INTO meals ('meal','user_fk') VALUES ('Hamburger', '1');
+
+6) 
+UPDATE users SET username = 'shamoontastic' WHERE id = 3;
+
+7)
+DELETE FROM users WHERE id = 4;
+
+8)
+SELECT * FROM meals INNER JOIN users ON id = user_fk;
+
+9)
+						Margin
+						Border
+						Padding
+Margin Border Padding	Content		Padding Border Margin
+						Padding
+						Border
+						Margin
+
+10) drawing
+
+11) "Sphen Zhen" ... "this." corresponds to 
+
+12) I would start by downloading sounds from the web. I'd look for Lion calls, sounds of Lightning, Gun Shots, Elephans, Rhinos ... Anything that I think woulc confuse a lion. I would then create a simple html sound board that plays the sound upon button click. Then I would just start mashing the buttons and hoped for the best.
+
