@@ -1,0 +1,30 @@
+<!--
+Here is the main HTML where handlebars will render to
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+		<title>MVC Tasks!</title>
+        <!-- Jquery -->
+        <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<p>
+			{{#unless logged_in}}
+				<a href="/users/sign-in">Sign In</a>
+				<a href="/users/new">Sign Up</a>
+			{{/unless}}
+
+			{{#if logged_in}}
+				Welcome {{email}}! <br>
+				You are user {{user_id}}.<br>
+				<a href="/users/sign-out">Sign Out</a>
+			{{/if}}
+		</p>
+		{{{ body }}}
+	</body>
+
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</HTML>
