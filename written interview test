@@ -24,13 +24,13 @@ DELETE FROM users WHERE id = 4;
 SELECT * FROM meals INNER JOIN users ON id = user_fk;
 
 9)
-						Margin
-						Border
-						Padding
+			Margin
+			Border
+			Padding
 Margin Border Padding	Content		Padding Border Margin
-						Padding
-						Border
-						Margin
+			Padding
+			Border
+			Margin
 
 10) drawing
 
